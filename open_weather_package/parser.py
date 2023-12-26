@@ -5,7 +5,7 @@ def parse_weather(json_data):
             'temperature': json_data['main']['temp'],
             'humidity': json_data['main']['humidity'],
             'pressure': json_data['main']['pressure'],
-
+            'wind': json_data['wind']['speed']
         }
         return weather
     else:
