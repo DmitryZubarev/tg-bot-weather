@@ -1,0 +1,1 @@
+weather_token = 'e0f76067109250c530e2448bcc013f31'
